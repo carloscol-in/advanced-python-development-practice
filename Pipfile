@@ -6,9 +6,12 @@ name = "pypi"
 [packages]
 psutil = "*"
 click = "*"
+adafruit-circuitpython-dht = {version = "*", markers = "'arm' in platform_machine"}
 
 [dev-packages]
 ipykernel = "*"
+pytest = "*"
+mypy = "*"
 
 [requires]
 python_version = "3.9"
